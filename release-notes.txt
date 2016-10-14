@@ -1,0 +1,177 @@
+﻿===============================================================================
+Intel(R) Binary Configuration Tool (BCT) Release Notes
+===============================================================================
+
+ Copyright (c) 1999-2013 Intel Corporation All Rights Reserved.
+
+ The source code contained or described herein and all documents related to 
+ the source code ("Material") are owned by Intel Corporation or its suppliers
+ or licensors. Title to the Material remains with Intel Corporation or its
+ suppliers and licensors. The Material may contain trade secrets and 
+ proprietary and confidential information of Intel Corporation and its 
+ suppliers and licensors, and is protected by worldwide copyright and trade
+ secret laws and treaty provisions. No part of the Material may be used,
+ copied, reproduced, modified, published, uploaded, posted, transmitted,
+ distributed, or disclosed in any way without Intel�s prior express written
+ permission.
+
+ No license under any patent, copyright, trade secret or other intellectual
+ property right is granted to or conferred upon you by disclosure or 
+ delivery of the Materials, either expressly, by implication, inducement,
+ estoppel or otherwise. Any license under such intellectual property rights
+ must be express and approved by Intel in writing.
+
+ Unless otherwise agreed by Intel in writing, you may not remove or alter
+ this notice or any other notice embedded in Materials by Intel or Intel's
+ suppliers or licensors in any way.
+
+ Except as expressly provided in Intel�s standard license terms and
+ conditions for the Intel software product or in the Intel software
+ license agreement accompanying the Intel software product, the Intel
+ software product is provided �as is�, without warranty of any kind,
+ whether express, implied or statutory, including but not limited to a
+ warranty of merchantability, non-infringement of intellectual property,
+ or fitness for any particular purpose.
+
+ This document is provided �as is� without any express, implied, or
+ statutory warranty of any kind including but not limited to warranties
+ of merchantability, noninfringement of intellectual property, or fitness
+ for any particular purpose.  Intel does not warrant or assume responsibility
+ for the accuracy, completeness or utility of any information contained
+ herein.  Intel may make changes to these materials, or to the Intel products
+ described therein, at any time without notice. Intel makes no commitment
+ to update these materials.
+
+ Intel and the Intel logo are trademarks or registered trademarks of Intel
+ Corporation or its subsidiaries in the United States and other countries.
+
+===============================================================================
+CONTENTS
+===============================================================================
+ 1.  OVERVIEW
+ 2.  RELEASE INFORMATION
+ 3.  INSTALLATION INFORMATION
+ 4.  LIMITATIONS
+ 5.  KNOWN ISSUES
+
+
+===============================================================================
+1.  OVERVIEW
+===============================================================================
+This Intel(R) Binary Configuration Tool (Intel(R) BCT) is provided as a 
+companion tool with the Intel(R) Firmware Support Package and is intended to be
+used to
+
+    - Change a list of configuration options  as provided a BSF for the FSP.
+    - Rebase the FSP to a different Base Address.
+
+This tool supports the BSF Specification 4.4a
+
+
+===============================================================================
+2.  RELEASE INFORMATION
+===============================================================================
+This is the 3.3.1 release of the Intel(R) Binary Configuration Tool and the
+release package includes
+ 
+ - Fedora 24 32-bit executable binary
+ - Fedora 24 64-bit executable binary
+ - Windows 7 32-bit binary (also executable on Windows 7 64-bit)
+ - User's Guide
+
+ Release 3.3.1
+=============
+- Fixed the byte0 inadvertently change while patching.
+ 
+Release 3.3.0
+=============
+- Compliant with FSP 2.0 spec
+- Minor updates regarding the Binary file permissions and patching of the Platform specific data.
+
+Release 3.2.2
+=============
+- Added support for full FSP version 2.0
+- Compliant with FSP 2.0 spec
+
+Release 3.2.1
+=============
+- Added support for FSP version '2.0'
+- Supports one FSP 2.0 component at a time.
+
+Release 3.2.0
+=============
+- Added support for FSP Header Rev. 1.1
+- Fix issue on windows where bct needed to "Run as administrator"
+
+Release 3.1.3
+=============
+ - Minor updates
+ 
+Release 3.1.2
+=============
+ - Improved Error handling
+ - BCT now searches the VPD and UPD regions of FSP binaries for the signature 
+   specified by the "Find" instruction in the StructDef section
+ - BCT now displays the contents of the FSP Header in the binary description
+ 
+Release 3.1.1
+=============
+ - Fixes bug that had disabled using multiple "Find" statements in the StructDef
+   section of BSF for FSP binaries. Multiple "Find" statements now function.
+ - Fixes bug that crashed BCT when trying to open a malformed BSF.
+ - You can now specify an output binary with a file extension other than .rom. 
+ 
+Release 3.1.0
+=============
+ - New! Improved the task of opening a BSF file. You are no longer forced to 
+   click through two wizard panes just to open a file
+ - New! BCT now keeps track of the last 5 files you opened in the File pull-
+   down menu. Quickly access the files you've been working on most recently
+ - New! Show the plain-text description table inside a FSP if it has one
+ - New! The command-line interface is now complete. Skip the GUI completely.
+   Use the command line to generate an ABSF, rebase the load address of a 
+   binary, patch a binary with a BSF or ABSF with the option to relocate at the
+   same time, print a binary's load address, and print the description table
+   You can even specify what BSF you want to open in the GUI on the command line
+   See the User's Guide or run `bct -h` from the command line for more details!
+ - New! BCT now supports FSP binaries with multiple FVs
+ - New! If the user patches a FSP, BCT will check the ImageRevision in the FSP
+   header and compare it to $gPlatformFspPkgTokenSpaceGuid_PcdImageRevision in
+   your BSF. Make sure it is defined in the StructDef section of your BSF
+ - New! The help pane now displays a more human-readable value for the default
+   value of comboboxes
+ - New! Improved the initial screen with buttons to quickly access the most 
+   common BCT tasks
+ - New! Keyboard shortcuts for patching or rebasing 
+ - Removed many seldom-used or unnecessary components
+ - The Windows installer now defaults to install in C:\Program Files(x86)\BCT
+   
+   
+Release 3.0.2 
+=============
+
+* This is the initial release for BCT
+
+===============================================================================
+3.  INSTALLATION INFORMATION
+===============================================================================
+Please refer the Intel(R) Binary Configuration Tool User's Guide for the 
+installation instructions and for help on how to use the tool.
+
+===============================================================================
+4. LIMITATIONS 
+===============================================================================
+ - The Windows version of BCT will not print messages to the console. This only
+   affects Windows users who want to run BCT from the command line and not use
+   the GUI. BCT will read the command line arguments correctly and do things 
+   such as generate an ABSF from a BSF, patch, and rebase a binary, but it will
+   not print any messages to the console. This is a limitation from the tool we 
+   use to generate a Windows executable.
+
+===============================================================================
+5. KNOWN ISSUES 
+===============================================================================
+ - Rebase.log file is not being generated.
+
+
+
