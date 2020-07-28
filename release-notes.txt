@@ -2,7 +2,7 @@
 Intel(R) Binary Configuration Tool (BCT) Release Notes
 ===============================================================================
 
- Copyright (c) 1999-2018 Intel Corporation All Rights Reserved.
+ Copyright (c) 1999-2020 Intel Corporation All Rights Reserved.
 
  The source code contained or described herein and all documents related to
  the source code ("Material") are owned by Intel Corporation or its suppliers
@@ -80,9 +80,14 @@ release package includes
  - Windows 7/8/10 32-bit binary (also executable on Windows 7/8/10 64-bit)
  - User's Guide
 
+Release 3.4.1
+=============
+- Added support for FSP version '2.2'
+- Compatible with new operating systems
+
 Release 3.4.0
 =============
-- Compliant with FSP 2.0 spec
+- Added support for FSP version '2.1'
 - Compatible with new operating systems
 
 Release 3.3.1
