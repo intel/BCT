@@ -11,20 +11,20 @@ BCT binaries are available for multiple operating systems. Refer to the followin
 
 Binary Name | Architecture | Tested Operating Systems
 :---------- | :----------: | :-----------------------
-[BCT-3.4.1-Windows-Installer.exe](https://github.com/IntelFsp/BCT/raw/master/BCT-3.4.1-Windows-Installer.exe) | IA-32 or X64 | <ul><li>Windows 10</li><li>Windows 8.1</li><li>Windows 7</li></ul>
-[bct-3.4.1-x86_64.ubuntu20.04.tar.gz](https://github.com/IntelFsp/BCT/raw/master/bct-3.4.1-x86_64.ubuntu20.04.tar.gz) | X64 | <ul><li>Ubuntu 20.04 LTS</li></ul>
-[bct-3.4.1-x86_64.deb10.tar.gz](https://github.com/IntelFsp/BCT/raw/master/bct-3.4.1-x86_64.deb10.tar.gz) | X64 | <ul><li>Debian 10.4 Buster</li></ul>
-[bct-3.4.1-x86_64.ubuntu16.04.tar.gz](https://github.com/IntelFsp/BCT/raw/master/bct-3.4.1-x86_64.ubuntu16.04.tar.gz) | X64 | <ul><li>Ubuntu 18.04 LTS</li><li>Ubuntu 16.04 LTS</li><li>Debian 9.6 Stretch</li></ul>
-[bct-3.4.1-i686.ubuntu16.04.tar.gz](https://github.com/IntelFsp/BCT/raw/master/bct-3.4.1-i686.ubuntu16.04.tar.gz) | IA-32 | <ul><li>Ubuntu 16.04 LTS</li></ul>
-[bct-3.4.1-x86_64.fc29.tar.gz](https://github.com/IntelFsp/BCT/raw/master/bct-3.4.1-x86_64.fc29.tar.gz) | X64 | <ul><li>Fedora Workstation 32</li><li>Fedora Workstation 29</li></ul>
+[BCT-3.4.2-Windows-Installer.exe](https://github.com/intel/BCT/raw/master/BCT-3.4.2-Windows-Installer.exe) | IA-32 or X64 | <ul><li>Windows 11</li><li>Windows 10</li><li>Windows 8.1</li><li>Windows 7</li></ul>
+[bct-3.4.2-x86_64.deb10.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.deb10.tar.gz) | X64 | <ul><li>Debian 10.4 Buster</li></ul>
+[bct-3.4.2-x86_64.ubuntu20.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.ubuntu20.04.tar.gz) | X64 | <ul><li>Ubuntu 20.04 LTS</li></ul>
+[bct-3.4.2-x86_64.ubuntu16.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.ubuntu16.04.tar.gz) | X64 | <ul><li>Ubuntu 18.04 LTS</li><li>Ubuntu 16.04 LTS</li></ul>
+[bct-3.4.2-x86_64.fc29.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.fc29.tar.gz) | X64 | <ul><li>Fedora Workstation 32</li><li>Fedora Workstation 29</li></ul>
 
 ## Releases
 
 Project Name | Version | Git command
 :----------- | :-----: | :----------
-Binary Configuration Tool | v3.4.1 | git clone https://github.com/IntelFsp/BCT.git <br /> git checkout BCT_v3_4_1
-Binary Configuration Tool | v3.4.0 | git clone https://github.com/IntelFsp/BCT.git <br /> git checkout BCT_v3_4_0
-Binary Configuration Tool | v3.3.1 | git clone https://github.com/IntelFsp/BCT.git <br /> git checkout BCT_v3_3_1
-Binary Configuration Tool | v3.3.0 | git clone https://github.com/IntelFsp/BCT.git <br /> git checkout BCT_v3_3_0
-Binary Configuration Tool | v3.2.2 | git clone https://github.com/IntelFsp/BCT.git <br /> git checkout BCT_v3_2_2
-Binary Configuration Tool | v3.2.0 | git clone https://github.com/IntelFsp/BCT.git <br /> git checkout BCT_v3_2_0_
+Binary Configuration Tool | v3.4.2 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_2
+Binary Configuration Tool | v3.4.1 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_1
+Binary Configuration Tool | v3.4.0 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_0
+Binary Configuration Tool | v3.3.1 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_3_1
+Binary Configuration Tool | v3.3.0 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_3_0
+Binary Configuration Tool | v3.2.2 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_2_2
+Binary Configuration Tool | v3.2.0 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_2_0_
