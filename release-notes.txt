@@ -71,15 +71,23 @@ This tool supports the BSF Specification 4.4a
 ===============================================================================
 2.  RELEASE INFORMATION
 ===============================================================================
-This is the 3.4.2 release of the Intel(R) Binary Configuration Tool and the
+This is the 3.4.3 release of the Intel(R) Binary Configuration Tool and the
 release package includes
 
+ - Ubuntu 22.04 LTS 64-bit executable binary
  - Ubuntu 20.04 LTS 64-bit executable binary
- - Ubuntu 16.04/18.04 LTS 64-bit executable binary
- - Fedora 29 64-bit executable binary
+ - Ubuntu 18.04 LTS 64-bit executable binary
+ - Red Hat Enterprise Linux 8/Rocky Linux 8 64-bit executable binary
+ - Fedora 36 64-bit executable binary
+ - Debian 11 ("bullseye") 64-bit executable binary
  - Debian 10 ("buster") 64-bit executable binary
  - Windows 7/8/10/11 32-bit binary (also executable on Windows 7/8/10/11 64-bit)
  - User's Guide
+
+Release 3.4.3
+=============
+- Added support for FSP version '2.4'
+- Compatible with new operating systems
 
 Release 3.4.2
 =============
@@ -172,8 +180,12 @@ Release 3.0.2
 ===============================================================================
 3.  INSTALLATION INFORMATION
 ===============================================================================
-Please refer the Intel(R) Binary Configuration Tool User's Guide for the
-installation instructions and for help on how to use the tool.
+Linux builds now include a new install.sh file. This script will copy BCT to
+~/.local and add BCT to the list of applications registered with the desktop.
+This is useful for single-user home directory installations.
+
+Otherwise, please refer the Intel(R) Binary Configuration Tool User's Guide for
+the installation instructions and for help on how to use the tool.
 
 ===============================================================================
 4. LIMITATIONS

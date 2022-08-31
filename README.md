@@ -11,16 +11,20 @@ BCT binaries are available for multiple operating systems. Refer to the followin
 
 Binary Name | Architecture | Tested Operating Systems
 :---------- | :----------: | :-----------------------
-[BCT-3.4.2-Windows-Installer.exe](https://github.com/intel/BCT/raw/master/BCT-3.4.2-Windows-Installer.exe) | IA-32 or X64 | <ul><li>Windows 11</li><li>Windows 10</li><li>Windows 8.1</li><li>Windows 7</li></ul>
-[bct-3.4.2-x86_64.deb10.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.deb10.tar.gz) | X64 | <ul><li>Debian 10.4 Buster</li></ul>
-[bct-3.4.2-x86_64.ubuntu20.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.ubuntu20.04.tar.gz) | X64 | <ul><li>Ubuntu 20.04 LTS</li></ul>
-[bct-3.4.2-x86_64.ubuntu16.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.ubuntu16.04.tar.gz) | X64 | <ul><li>Ubuntu 18.04 LTS</li><li>Ubuntu 16.04 LTS</li></ul>
-[bct-3.4.2-x86_64.fc29.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.2-x86_64.fc29.tar.gz) | X64 | <ul><li>Fedora Workstation 32</li><li>Fedora Workstation 29</li></ul>
+[BCT-3.4.3-Windows-Installer.exe](https://github.com/intel/BCT/raw/master/BCT-3.4.3-Windows-Installer.exe) | IA-32 or X64 | <ul><li>Windows 11</li><li>Windows 10</li><li>Windows 8.1</li><li>Windows 7</li></ul>
+[bct-3.4.3-x86_64.deb11.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.deb11.tar.gz) | X64 | <ul><li>Debian 11 Bullseye</li></ul>
+[bct-3.4.3-x86_64.deb10.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.deb10.tar.gz) | X64 | <ul><li>Debian 10.4 Buster</li></ul>
+[bct-3.4.3-x86_64.fc36.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.fc36.tar.gz) | X64 | <ul><li>Fedora Workstation 36</li></ul>
+[bct-3.4.3-x86_64.el8.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.el8.tar.gz) | X64 | <ul><li>Red Hat Enterprise Linux 8</li><li>Rocky Linux 8</li></ul>
+[bct-3.4.3-x86_64.ubuntu22.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.ubuntu22.04.tar.gz) | X64 | <ul><li>Ubuntu 22.04 LTS</li></ul>
+[bct-3.4.3-x86_64.ubuntu20.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.ubuntu20.04.tar.gz) | X64 | <ul><li>Ubuntu 20.04 LTS</li></ul>
+[bct-3.4.3-x86_64.ubuntu18.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.3-x86_64.ubuntu18.04.tar.gz) | X64 | <ul><li>Ubuntu 18.04 LTS</li></ul>
 
 ## Releases
 
 Project Name | Version | Git command
 :----------- | :-----: | :----------
+Binary Configuration Tool | v3.4.3 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_3
 Binary Configuration Tool | v3.4.2 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_2
 Binary Configuration Tool | v3.4.1 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_1
 Binary Configuration Tool | v3.4.0 | git clone https://github.com/intel/BCT.git <br /> git checkout BCT_v3_4_0
