@@ -2,7 +2,7 @@
 Intel(R) Binary Configuration Tool (BCT) Release Notes
 ===============================================================================
 
- Copyright (c) 1999-2022 Intel Corporation All Rights Reserved.
+ Copyright (c) 1999-2023 Intel Corporation All Rights Reserved.
 
  The source code contained or described herein and all documents related to
  the source code ("Material") are owned by Intel Corporation or its suppliers
@@ -71,23 +71,29 @@ This tool supports the BSF Specification 4.4a
 ===============================================================================
 2.  RELEASE INFORMATION
 ===============================================================================
-This is the 3.4.3 release of the Intel(R) Binary Configuration Tool and the
+This is the 3.4.4 release of the Intel(R) Binary Configuration Tool and the
 release package includes
 
  - Ubuntu 22.04 LTS 64-bit executable binary
  - Ubuntu 20.04 LTS 64-bit executable binary
  - Ubuntu 18.04 LTS 64-bit executable binary
  - Red Hat Enterprise Linux 8/Rocky Linux 8 64-bit executable binary
- - Fedora 36 64-bit executable binary
+ - Fedora 38 64-bit executable binary
  - Debian 11 ("bullseye") 64-bit executable binary
  - Debian 10 ("buster") 64-bit executable binary
  - Windows 7/8/10/11 32-bit binary (also executable on Windows 7/8/10/11 64-bit)
  - User's Guide
 
+Release 3.4.4
+=============
+- Added support for X64 FSP binaries
+- Added support for rebasing FSP-I & FSP-O components
+
 Release 3.4.3
 =============
 - Added support for FSP version '2.4'
 - Compatible with new operating systems
+- Added Linux installation script
 
 Release 3.4.2
 =============
