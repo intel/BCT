@@ -1,5 +1,5 @@
-# BCT
 Intel® Binary Configuration Tool for Intel® FSP
+===============================================
 
 ## Overview
 
