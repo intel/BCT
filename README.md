@@ -17,6 +17,7 @@ Binary Name | Architecture | Tested Operating Systems
 [bct-3.4.5-x86_64.el9.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.5-x86_64.el9.tar.gz) | X64 | <ul><li>Red Hat Enterprise Linux 9</li><li>Rocky Linux 9</li></ul>
 [bct-3.4.5-x86_64.el8.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.5-x86_64.el8.tar.gz) | X64 | <ul><li>Red Hat Enterprise Linux 8</li><li>Rocky Linux 8</li></ul>
 [bct-3.4.5-x86_64.fc39.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.5-x86_64.fc39.tar.gz) | X64 | <ul><li>Fedora Workstation 39</li></ul>
+[bct-3.4.5-x86_64.ubuntu24.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.5-x86_64.ubuntu24.04.tar.gz) | X64 | <ul><li>Ubuntu 24.04 LTS</li></ul>
 [bct-3.4.5-x86_64.ubuntu22.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.5-x86_64.ubuntu22.04.tar.gz) | X64 | <ul><li>Ubuntu 22.04 LTS</li></ul>
 [bct-3.4.5-x86_64.ubuntu20.04.tar.gz](https://github.com/intel/BCT/raw/master/bct-3.4.5-x86_64.ubuntu20.04.tar.gz) | X64 | <ul><li>Ubuntu 20.04 LTS</li></ul>
 
